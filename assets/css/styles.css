@@ -278,4 +278,84 @@ img{
 /* ================ BUTTONS ================ */
 .button{
     display: inline-block;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1rem 1.25rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: var(--black-color-alt);
+}
+
+.button__icon{
+    display: inline-flex;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .75rem;
+}
+
+/* ================ SPONSOR ================ */
+
+.reconocimientos__img{
+    width: 100px;
+}
+
+.reconocimientos__container{
+    grid-template-columns: repeat(auto-fit,minmax(110px, 1fr));
+    row-gap: 5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+/* ================ SPECS ================ */
+
+.specs__container{
+    position: relative;
+}
+
+.specs__content{
+    row-gap: 1.5rem;
+}
+
+.specs__data{
+    display: grid;
+    row-gap: .25rem;
+}
+
+.specs__icon{
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.specs__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.specs__subtitulos{
+    font-size: var(--small-font-size);
+}
+
+.specs__data:nth-child(1),
+.specs__data:nth-child(4){
+    margin-left: var(--mb-1-5);
+}
+
+.specs__img{
+    width: 200px;
+    position: absolute;
+    top: 2rem;
+    right: -4rem;
+}
+
+/* ================ CASE ================ */
+
+.case__container{
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
 }
