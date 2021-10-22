@@ -274,3 +274,8 @@ img{
     font-weight: var(--font-semi-bold);
     margin-left: var(--mb-0-75);
 }
+
+/* ================ BUTTONS ================ */
+.button{
+    display: inline-block;
+}
