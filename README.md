@@ -1,6 +1,10 @@
-# Título del Proyecto
+# Game-page [exercise]
+_This work was an experiment by of practice by youtube: Headphones Website Design._
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Bedimcode_
+_Responsive Landing Page Using HTML CSS & JavaScript 🎧 <br>
+Headphones Website Design_<br>
+_URL: https://www.youtube.com/watch?v=wXnlHIvKnTM&list=WL&index=30&t=1121s_
 
 ## Comenzando 🚀
 
